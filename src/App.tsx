@@ -1,6 +1,9 @@
 import React from "react";
 import { OktaAuth } from "@okta/okta-auth-js";
 
+// This works, but breaks typescript support.
+// import { OktaAuth } from "@okta/okta-auth-js/dist/okta-auth-js.umd.js";
+
 // This throws:
 // node_cache.js:38 Uncaught TypeError: Class extends value undefined is not a constructor or null
 //     at Object.<anonymous> (node_cache.js:38)
